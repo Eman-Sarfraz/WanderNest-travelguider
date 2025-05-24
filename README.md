@@ -25,7 +25,22 @@ WanderNest is a modern travel planning application built with React and Node.js 
   - Node.js
   - Express
   - CORS
+## APIs and Data Sources
+Internal API Endpoints (server/controllers.js)
+/api/countries/search — Country search functionality
 
+/api/countries/:country — Detailed country information
+
+/api/budget/calculate — Travel budget calculation logic
+
+/api/images — Image gallery data
+
+External Services (Simulated)
+Currency exchange rates
+
+Country information database
+
+Pexels API for image retrieval
 ## Project Structure
 
 ```
@@ -43,23 +58,6 @@ wandernest/
 └── public/            # Static assets
 ```
 
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/wandernest.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev:both
-   ```
-
 ## Deployment
 
 The application can be deployed to Vercel:
@@ -72,14 +70,6 @@ The application can be deployed to Vercel:
 2. Backend:
    - Deploy the server directory as a separate Node.js service
    - Update the API URL in the frontend configuration
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
 
