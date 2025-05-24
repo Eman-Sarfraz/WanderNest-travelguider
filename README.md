@@ -25,7 +25,9 @@ WanderNest is a modern travel planning application built with React and Node.js 
   - Node.js
   - Express
   - CORS
+    
 ## APIs and Data Sources
+
 Internal API Endpoints (server/controllers.js)
 /api/countries/search — Country search functionality
 
